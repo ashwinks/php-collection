@@ -1,6 +1,6 @@
 <?php
 
-abstract Collection implements \ArrayAccess, \Countable, \Iterator{
+abstract class Collection implements \ArrayAccess, \Countable, \Iterator{
     
     private $_position = 0;
     protected $_data;
